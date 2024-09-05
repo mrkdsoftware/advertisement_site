@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<div id="title-container">
+  <h1 id="title-text" class="animate__animated disable-select">Drink Water</h1>
+  <img id="title-image" class="animate__animated disable-select" src="img/waterbottle.png" draggable="false" alt="Water Bottle">
+  <a href="#info-page"><span id="title-arrow" class="disable-select downward_arrow animate__animated animate__infinite animate__bounce animate__slow">&#8681;</span></a>
+</div>
+
+<div id="info-page">
+  <div class="info-container">
+    <div class="info-row-container">
+      <p id="info-first-text" class="hide animate__animated">
+        Mineral water is sourced from natural springs, wells, or aquifers that are rich in minerals. These sources are often located in protected areas to ensure purity and are carefully selected for their mineral content.
+      </p>
+      <img src="img/spring.png" id="first-info-img" class="disable-select hide animate__animated" draggable="false">
+    </div>
+    <div class="info-row-container">
+      <img src="img/download.png" id="second-info-img" class="disable-select hide animate__animated" draggable="false">
+      <p id="info-second-text" class="hide animate__animated">
+        The water is filtered to remove any impurities while preserving its natural mineral content. It undergoes rigorous quality control testing to ensure it meets safety and health standards.
+      </p>
+    </div>
+    <div class="info-row-container">
+      <p id="info-third-text" class="hide animate__animated">
+        Once the water passes quality checks, it is bottled in a controlled environment to maintain its purity. The bottling process ensures that the water is sealed and preserved for consumer use, retaining its natural minerals and freshness.
+      </p>
+      <img src="img/bottling.jpg" id="third-info-img" class="disable-select hide animate__animated" draggable="false">
+    </div>
+    <a href="#review-page"><span id="info-arrow" class="disable-select downward_arrow animate__animated animate__infinite animate__bounce animate__slow">&#8681;</span></a>
+  </div>
+</div>
+
+
+<div id="review-page">
+  <div class="review-container">
+    <div id="first-review-container" class="review">
+      <img class="disable-select" src="https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9nfGVufDB8fDB8fHww"/>
+      <h1>Dog</h1>
+      <p class="review-subtitle">Water Consumer</p>
+      <p class="review-description">
+        "As a dog, I have to say, water is positively amazing. It’s wet, refreshing, and always there when I need it—whether it's in my bowl, falling from the sky, or found in mysterious puddles on walks. Sure, baths aren't my favorite, but hey, we all have our differences, right?"
+      </p>
+    </div>
+
+    <div id="second-review-container" class="review hidden">
+      <img class="disable-select" src="https://images.unsplash.com/photo-1725109432339-d4c815f517bb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8"/>
+      <h1>Human</h1>
+      <p class="review-subtitle">Water-Drinker</p>
+      <p class="review-description">
+        "Water. Where do I even start? It's simple, it's classic, and it’s literally life-sustaining. There’s a reason we’re told to drink eight glasses a day—it's the OG of hydration. Whether it's ice-cold on a hot day or warm with a slice of lemon first thing in the morning, water never disappoints."
+      </p>
+    </div>
+
+    <div id="third-review-container" class="review hidden">
+      <img class="disable-select" src="https://images.unsplash.com/photo-1724893973738-a80d90811389?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D"/>
+      <h1>Flamingo</h1>
+      <p class="review-subtitle">Water Enjoyer</p>
+      <p class="review-description">
+        "As a flamingo, let me just say—water is everything. It’s my runway, my dining table, and my personal spa. Whether I’m standing gracefully on one leg or sifting through it for my shrimp buffet, water is always there, supporting my fabulous pink lifestyle."
+      </p>
+    </div>
+
+    <div class="arrow-container">
+      <a id="leftarrow"><i class="arrow left" onclick="scrollLeftCard()"></i></a>
+      <a id="rightarrow" ><i class="arrow right" onclick="scrollRight()"></i></a>
+    </div>
+  </div>
+
+
+</div>
+
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
